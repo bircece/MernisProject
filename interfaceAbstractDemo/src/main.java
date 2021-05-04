@@ -9,11 +9,11 @@ public class main {
 	public static void main(String[] args) {
 
 		/*BaseCustomerMenager customerMenager= new NeroCustomerMenager();
-		customerMenager.Save(new Customer(1, "FİLİZ BİRCE ", "ÇETİN", 1998, "63190268094"));
+		customerMenager.Save(new Customer(1, "FÃLÃZ BÃRCE ", "Ã‡ETÃN", 1998, "63190268012"));
 		System.out.println();*/
 		
 		BaseCustomerMenager customerMenager= new StarbucksCustomerMenager(new MernisServiceAdapters());
-		customerMenager.Save(new Customer(1, "FİLİZ BİRCE ", "ÇETİN", 1997, "63190268094"));
+		customerMenager.Save(new Customer(1, "FÃLÃZ BÃRCE ", "Ã‡ETÃN", 1997, "63190268012"));
 		System.out.println();	}
 
 }
